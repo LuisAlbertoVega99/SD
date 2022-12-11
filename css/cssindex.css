@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kdam+Thmor+Pro&family=Kenia&family=Nerko+One&family=Oswald&family=Poppins:wght@300;500&family=Zen+Dots&display=swap');
+.main{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    
+}
+.show_pag{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.show_pag .container{
+    position: absolute;
+    font-family: 'Poppins';
+    color:rgb(0, 0, 0);
+    z-index: 996;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+.container h1{
+    width: 100%;
+}
+.container a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Oswald';
+}
+.boton{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: brown;
+    border-radius: 12px;
+}
+.fire{
+    color: orange;
+    background-color: orange ;
+    
+}
+.imgcontainer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 995;
+}
+.cardview{
+    display: flex;
+    align-items: center;
+    font-family: 'Zen Dots';
+    max-width: 100%;
+    background-color: rgb(242, 243, 244);
+    margin: 1rem;
+    border-radius: 2rem;
+
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .3s ease-in-out;
+}
+
+.cardview .imgizq {
+    width: 50%;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 1rem 0.5rem 0.4rem;
+}
+.cardview.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+.cardview .imgder {
+    width: 50%;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: -1rem 0.5rem 0.4rem;
+}
+.cardview .cardview_data{
+    margin: 1rem;
+}
+img{
+    width: 100%;
+}
+.experiencias{
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    background-color: antiquewhite;
+    margin: 1rem;
+    display: flex;
+}
+.experiencias img{
+    width: 200px;
+    mix-blend-mode: normal;
+}
+.experiencias div{
+    position: relative;
+    background-color: aliceblue;
+    backdrop-filter: opacity(1);
+
+}
+.experiencias p{
+    padding: 1rem;
+}
